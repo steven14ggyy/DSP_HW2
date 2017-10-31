@@ -3,7 +3,7 @@
 # HW2 / Image Filtering and Corner Detection
 
 ## Overview
-The project is related to corner detection. By digital signal processing, corners in an image can be found out and labeled as red circles shown on the image. To do so, we use gradient filters and a Gaussian filter, calculate "corner response function" (R), transform R to a binary image,  and finally find local maximums, where corners appear.
+The project is related to corner detection. By digital signal processing, corners in an image can be found out and labeled as red circles on the image. To do so, we use gradient filters and a Gaussian filter, calculate "corner response function" (R), transform R to a binary image,  and finally find local maximums, where corners appear.
 
 
 ## Implementation
@@ -80,6 +80,6 @@ plot(c1,r1,'or');
 ### Results:    
 |Input|Output|  
 |---------------|---------------|   
-|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im.jpg width ="80%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im_corner.png width="100%"/>|   
-|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess.png width="80%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess_corner.png width="100%"/>|  
+|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im.jpg width ="100%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im_corner.png width="100%"/>|   
+|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess.png width="100%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess_corner.png width="100%"/>|  
 |<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/DSC_0116_1.JPG width="100%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/DSC_0116_1_corner.JPG width="100%"/>|
