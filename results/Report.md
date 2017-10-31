@@ -64,8 +64,11 @@ end
 Then, we exclude the local maximum points which exist along image's edges, and record (row, col) of the rest. Finaly, we display the result and mark corner points by circle signs.
 ```Matlab
 %% get location of corner points not along image's edges
-offe = r-1;
-count=sum(sum(RBinary(offe:size(RBinary,1)-offe,offe:size(RBinary,2)-offe))); % How many interest points, avoid the image's edge   
+offe = r-1; 
+
+% How many interest points, avoid the image's edge
+count=sum(sum(RBinary(offe:size(RBinary,1)-offe,offe:size(RBinary,2)-offe)));   
+%Record positions of local maximums
 R=R*0;
 R(offe:size(RBinary,1)-offe,offe:size(RBinary,2)-offe)=RBinary(offe:size(RBinary,1)-offe,offe:size(RBinary,2)-offe);
 [r1,c1] = find(R);
