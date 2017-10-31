@@ -61,8 +61,27 @@ for i = xmin+1:xmax-1
     a=1;
 end
 ```
+Then, we exclude the local maximum points which exist along image's edges, and record (row, col) of the rest. Finaly, we display the result and mark corner points by circle signs.
+```Matlab
+%% get location of corner points not along image's edges
+offe = r-1;
+count=sum(sum(RBinary(offe:size(RBinary,1)-offe,offe:size(RBinary,2)-offe))); % How many interest points, avoid the image's edge   
+R=R*0;
+R(offe:size(RBinary,1)-offe,offe:size(RBinary,2)-offe)=RBinary(offe:size(RBinary,1)-offe,offe:size(RBinary,2)-offe);
+[r1,c1] = find(R);
+  
+%% Display
+figure(3)
+imagesc(uint8(frame));
+hold on;
+plot(c1,r1,'or');
+```
 
-### Results
+### Results:    
+|Input|Output|  
+|---------------|---------------|   
+|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im.jpg width ="90%"/>|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im_corner.png width="100%"/>|
+|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess.png width="90%"/>|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess_corner.png width="100%"/>|
+|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/DSC_0116_1.JPG width="90%"/>|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/DSC_0116_1_corner.JPG width="100%"/>|
 
-</table>
 
