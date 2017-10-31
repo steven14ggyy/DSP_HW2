@@ -1,10 +1,9 @@
-# Your Name <span style="color:red">(yout cs id)</span>
+# 翁啟文 <span style="color:red">(103061112)</span>
 
-# Project 1 / Image Filtering and Hybrid Images
+# HW2 / Image Filtering and Corner Detection
 
 ## Overview
-The project is related to 
-> quote
+The project is related to corner detection. By digital signal processing, corners in an image can be found out and labeled as red circles shown on the image. To do so, we use gradient filters and a gaussian filter, calculate "corner response function" (R), transfer R to a binary image,  and finally find local maximum positions, where corners is.
 
 
 ## Implementation
