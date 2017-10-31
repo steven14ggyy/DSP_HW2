@@ -61,7 +61,7 @@ for i = xmin+1:xmax-1
     a=1;
 end
 ```
-Then, we exclude the local maximum points which exist along image's edges, and record (row, col) of the rest. Finaly, we display the result and mark corner points by circle signs.
+Then, we exclude the local maximum points which exist along image's edges, and record (row, col) of the rest. Finally, we display the result and mark corner points by circle signs.
 ```Matlab
 %% get location of corner points not along image's edges
 offe = r-1; 
