@@ -34,7 +34,7 @@ Ixy = imfilter(Ixy, g);
 We plot Ixy on the screen and demo to TAs:  
 <img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/corner_Ixy.jpg width="40%"/>
 
-Next, calculate corner response function R = det(M)-alpha*trace(M)^2. __Note that the determinant of M is (Ix2.*Iy2 - Ixy.*Ixy) and trace(M) is (Ix2.*Iy2).__ And we scale R to 0~1000. Use ordfilt2() to find a maximum value in each separate domain (in our case, the size of domain is sze * sze = 13 * 13). There is a simple diagram showing how to find local maximums by comparison:  
+Next, calculate corner response function R = det(M)-alpha*trace(M)^2. __Note that the determinant of M is (Ix2.*Iy2 - Ixy.*Ixy) and trace(M) is (Ix2.*Iy2).__ And we scale R to 0~1000. Use ordfilt2() to find a maximum value in each separate domain (in our case, the size of the domain is sze * sze = 13 * 13, and the value must be greater than a threshold). There is a simple diagram showing how to find local maximums by comparison:  
 <img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/results/explain_1.png width="70%"/>  
 After comparison, store value "1" at the same (row, col) in RBinary array to represent positions of local maximums.  
 ```Matlab
