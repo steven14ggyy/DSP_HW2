@@ -80,6 +80,6 @@ plot(c1,r1,'or');
 ### Results:    
 |Input|Output|  
 |---------------|---------------|   
-|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im.jpg width ="90%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im_corner.png width="100%"/>|   
-|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess.png width="90%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess_corner.png width="100%"/>|  
-|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/DSC_0116_1.JPG width="20%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/DSC_0116_1_corner.JPG width="100%"/>|
+|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im.jpg width ="80%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/Im_corner.png width="100%"/>|   
+|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess.png width="80%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/chess_corner.png width="100%"/>|  
+|<img src= https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/DSC_0116_1.JPG width="100%"/>|<img src=https://github.com/steven14ggyy/DSP_Lab_HW2/blob/master/data/DSC_0116_1_corner.JPG width="100%"/>|
